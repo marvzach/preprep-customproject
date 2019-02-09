@@ -1,0 +1,331 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Cormorant Garamond', serif;
+}
+.paragraph {
+  color: #777777;
+}
+p {
+  font-size: 20px;
+  line-height: 1.75;
+}
+h1,h2,h3,h4,h5,h6 {
+font-family: 'Cormorant Garamond', serif;
+text-transform: uppercase;
+font-weight: 700;
+}
+.gray {
+  background-color: #eeeeee;
+}
+@media (min-width: 768px) {
+header .intro {
+padding-top: 300px;
+padding-bottom: 200px;
+}
+}
+header .intro .intro-lead-in {
+font-family: 'Cormorant Garamond', serif;
+font-style: italic;
+font-size: 40px;
+line-height: 40px;
+margin-bottom: 25px;
+  }
+header .intro .intro-heading {
+   font-family: 'Cormorant Garamond', serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px;
+  }
+
+section h3.sec-p {
+  font-size: 30px;
+  font-family: 'Cormorant Garamond', serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 75px;
+}
+section img{
+  height: 70%;
+}
+
+      section{
+        padding:100px 0;
+      }
+      section h2.sec-heading{
+        font-size:40px;
+        margin-top:0;
+        margin-bottom:15px;
+        text-align: center;
+        font-family: 'Kreon', serif;
+
+        }
+@media (min-width:768px)
+{
+  section{
+  padding:150px 0;
+              }
+            }
+.service-heading{
+margin:15px 0;
+text-transform:none;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 120px 0;
+  }
+}
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+  body{
+    overflow-x:hidden;
+    font-family: 'Cormorant Garamond', serif;
+}
+.paragraph{
+    color:#777;
+ }
+p{
+  font-size:14px;
+  line-height:1.75;
+}
+.gray{
+ background-color:#eee;
+    }
+
+header{
+background-image:url(https://s.abcnews.com/images/International/AP_kenya_mall_attack_jt_130922_16x9_992.jpg);
+background-repeat:no-repeat;
+background-attachment:scroll;
+background-position:center center;
+background-size:cover;
+text-align:center;
+color:#fff
+}
+header .intro{
+padding-top:100px;
+padding-bottom:50px
+font-size:60px;
+}
+header .intro .intro-lead-in{
+font-family: 'Cormorant Garamond', serif;
+font-style:italic;
+font-size:22px;
+line-height:22px;
+margin-bottom:25px
+}
+header .intro .intro-heading{
+font-family: 'Cormorant Garamond', serif;
+text-transform:uppercase;
+font-weight:7px;
+font-size:10px;
+line-height:50px;
+margin-bottom:25px;
+color:black;
+}
+/*header .intro .intro-heading span{
+color:red;
+}*/
+@media (min-width:768px)
+{
+  header.intro{
+  padding-top:300px;
+  padding-bottom:200px;
+}
+header .intro .intro-lead-in{
+font-family: 'Cormorant Garamond', serif;
+font-style:italic;
+font-size:40px;
+line-height:40px;
+margin-bottom:25px
+}
+      header .intro .intro-heading{
+      font-family: 'Cormorant Garamond', serif;
+      text-transform:uppercase;
+      font-weight:600;
+      font-size:75px;
+      line-height:75px;
+      margin-bottom:50px;
+      color: white;
+      font-family: 'Kreon', serif;
+
+    }
+    }
+
+}
+section#contact{
+background-repeat:no-repeat;
+}
+nav {
+   max-width: 960px;
+   margin: 0 auto;
+   padding: 10px 0;
+    margin-right: 0%;
+}
+nav ul{
+  text-align:right;
+}
+nav li{
+  display:inline-block;
+  font-size: 20px;
+
+}
+nav>ul>li>a {
+padding: 18px;
+margin-right: 0;
+text-transform: uppercase;
+display: block;
+color: black;
+}
+nav>ul>li>a:hover {
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+background: red;
+}
+
+
+a:active {
+  background-color: red;
+}
+.row img{
+
+  border-radius: 15%;
+  max-width: 20%;
+  height: auto;
+}
+.column span{
+  color: red;
+}
+
+.row p{
+  color: black;
+  font-size: 20px;
+
+}
+#about{
+  background-color: #C0C0C0;
+}
+.column h3{
+  color: white;
+}
+.sec-contact{
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
+.cont{
+  text-align: left;
+  color: black;
+  font-family: 'Libre Baskerville', serif;
+}
+#elnino{
+   background-color: #C0C0C0;
+}
+.elninopre span{
+  color: red;
+}
+.elninopre img{
+  display: block;
+
+  width: 30%;
+  height: 1%;
+}
+
+.terrorhead span{
+  color: red;
+}
+.column1 {
+  box-sizing: border-box;
+}
+
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column1 img{
+  border-radius: 10%;
+  width: 200px;
+  height: 100px;
+  border: 1px solid white;
+}
+.programs li{
+   background: white;
+    color: white;
+    height: 50px;
+    text-align: left;
+    width: 80px;
+    vertical-align:middle;
+    display:inline-block;
+    padding: 100px 100px 100px 50px;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+table th{
+font-size: 30px;
+
+}
+
+table, th, td {
+  font-size: 30px;
+  color: red;
+
+}
+.really{
+  position: absolute;
+    top: 2200px;
+    right: 0px;
+}
+.programs>ul>li>a:hover {
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+background: white;
+background-color: red;
+border: 1px solid red;
+/*color: rgba(0, 35, 122, 0.7);*/
+}
+.column4 img{
+  height:300px;
+  width:300px;
+  border-radius: 5%;
+
+}
+
+.column4 {
+  box-sizing: border-box;
+}
+
+.column4 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+.row4::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#contact{
+background-image:url(https://www.canva.com/learn/wp-content/uploads/2016/01/contact-us-page-design.jpg);
+background-repeat:no-repeat;
+background-attachment:scroll;
+background-position:center center;
+background-size:cover;
+text-align:center;
+color:#020202;
+}
+
+#donate h1{
+text-align: center;
+}
